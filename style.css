@@ -1,0 +1,98 @@
+	@charset "utf-8";
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	body{
+		background-image: url("img/bgcolor/bg.jpg");
+	}
+	.wrapper{
+		width: 960px;
+		margin: 0px auto;
+	}
+	
+	.header{
+		margin-top: 20px;
+		width: 956px;
+		height: 160px;
+		line-height: 2.5em;
+		background-image: url("img/bgcolor/header.jpg");
+		border: 2px solid #fff;
+	}
+	
+	h1{
+		margin-top: 15px;
+		margin-left: 40px;
+		padding-top: 20px;
+		text-shadow: 2px 2px 3px #666666;
+		font-size: 250%;
+		color: #fff;
+	}
+	
+	.header p{
+		margin-left: 30px;
+		color: #fff;
+	}
+	
+	
+	nav ul {
+		width: 100%;
+		margin: 0px;
+		padding: 5px 5px 5px 30px;
+	}
+	
+	nav li {
+		display: inline;
+		margin-right: 40px;
+	}
+	
+	nav li a{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	nav li a:hover{
+		color: #000;
+		text-decoration: none;
+	}
+	
+	.content{
+		margin-top: 2px;
+		width: 960px;
+		height: 590px;
+	}
+	
+	.sectionone{
+		width: 956px;
+		height: 930px;
+		margin-top: 10px;
+		margin-right: 10px;
+		float: left;
+		border: 2px solid #fff;
+	}
+	
+	.email{
+		width: 900px;
+		margin: 15px auto;
+	}
+	
+	.email p {
+		margin: 5px 60px;
+		line-height: 1.5em;
+		color: #fff;
+	}
+	
+	
+	.footer{
+		width:956px;
+		height:30px;
+		border: 2px solid #fff;
+		margin-top: 370px;
+	}
+	
+	.footer > p{
+		margin-left: 800px;
+		padding-top: 5px;
+		color: #de6581;
+	}
